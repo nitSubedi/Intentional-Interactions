@@ -1,7 +1,7 @@
 from openai import OpenAI
 
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="")
 
 def geenerate_description(event_name):
     response = client.chat.completions.create(
